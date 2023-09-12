@@ -3,12 +3,10 @@
 ## Overview
 A simple application for authors and the books they wrote.
 P.S. This repository contains .env and config.yml files, which in normal development it is not recommended to push to a public repository. Here they are for easier deployment of the project
-
 ## To start the project you need:
 - Golang version 1.20.4+
 - Docker
 - Protoc
-
 ## Installation
 ### Environment 
 In terminal
