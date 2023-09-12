@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option go_package = "github.com/Noringotq/simple-grpc/lib";
+
+service Lib {
+  rpc GetAuthors(BookRequest) returns (AuthorsResponse);
+  rpc GetBooks(AuthorRequest) returns (BooksResponse);
+}
+
+message BookRequest {
+  string title = 1;
+}
+
+message Author {
+  string name = 1;
+}
+message AuthorsResponse {
+  repeated Author authors = 1;
+}
+
+
+message Book {
+  string title = 1;
+}
+message AuthorRequest {
+  string name = 1;
+}
+message BooksResponse {
+  repeated Book books = 1;
+}
