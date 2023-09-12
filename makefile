@@ -2,7 +2,7 @@ gen-docker:
 	docker-compose up -d
 
 gen-db:
-	docker exec -i grpc-db-1 mysql -uroot -proot < ./db.sql
+	docker exec -i simple-library-db-1 mysql -uroot -proot < ./db.sql
 
 gen-proto:
 	mkdir -p pkg/lib
