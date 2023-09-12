@@ -1,5 +1,6 @@
 syntax = "proto3";
 
+package lib;
 option go_package = "github.com/Noringotq/simple-grpc/lib";
 
 service Lib {

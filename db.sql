@@ -14,4 +14,4 @@ CREATE TABLE `lib`.books (
 );
 
 INSERT INTO `lib`.authors (name) VALUES ('John'), ('Anthony'), ('William');
-INSERT INTO `lib`.books (title, author_id) VALUES ('A', 1), ('B', 1), ('C', 2), ('D', 3), ('E', 3), ('F', 3);
+INSERT INTO `lib`.books (title, author_id) VALUES ('A', 1), ('B', 1), ('C', 2), ('D', 3), ('E', 3), ('F', 3), ('A', 3);
